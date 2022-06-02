@@ -1,0 +1,91 @@
+<!-- 
+    1. Generar el esqueleto de HTML 
+    2. Incluir las librerias de React, ReactDom y Babel
+    3. Incluir el div con id root en el body
+    4. Poner la etiqueta <script> y crear el root de React
+    5. Generar un primer componente que se llame Cabecera. Que retorne el html de la cabecera
+    6. Poner el render desde el root para visualizar la cabecera
+    7. Generar el segundo componenten. El menú.
+    8. Modificar el render para ver la cabecera y el menú en la página
+    9. Repetir puntos 7 y 8 para generar componente cuerpo que dentro deberá tener componente contenido y barraLaterla
+    10. Repetir puntos 7 y 8 para generar componente pie
+    11. Generar un componente llamada App, que dentro debe tener los componentes cabecera, menu, cuerpo y pie. 
+    cambier el render del elemento root, para solo pintar el componente App
+    root.render(<App />);
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- Don't use this in production: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+      function Cabecera() {
+        return (
+          <header>
+            <h1>Desarrollo web con REACT JS</h1>
+          </header>
+        );
+      }
+      function Menu() {
+        return (
+          <nav>
+            <ul>
+              <li>Inicio</li>
+              <li>Nosotros</li>
+              <li>Contacto</li>
+            </ul>
+          </nav>
+        );
+      }
+
+      function Contenido() {
+        return <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            In euismod, nisl eu blandit congue, nunc nisl consectetur
+            ipsum, eget congue nisl nisi eget nisl.
+            </p>;
+      }
+
+      function BarraLateral() {
+        return <p>Barra lateral</p>;
+      }
+
+      function Cuerpo() {
+        return (
+          <div>
+            <Contenido />
+            <BarraLateral />
+          </div>
+        );
+      }
+
+      function Pie() {
+        return <p>Pie de página</p>;
+      }
+
+      function App() {
+        return (
+          <div>
+            <Cabecera />
+            <Menu />
+            <Cuerpo />
+            <Pie />
+          </div>
+        );
+      }
+
+      const container = document.getElementById("root");
+      const root = ReactDOM.createRoot(container);
+      root.render(<App />);
+    </script>
+  </body>
+</html>
