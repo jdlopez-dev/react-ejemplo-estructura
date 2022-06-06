@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/react-ejemplo-estructura/static/css/main.073c9b0a.css",
-    "main.js": "/react-ejemplo-estructura/static/js/main.c3af6557.js",
+    "main.js": "/react-ejemplo-estructura/static/js/main.94e9ac64.js",
     "static/js/787.4d14aa8e.chunk.js": "/react-ejemplo-estructura/static/js/787.4d14aa8e.chunk.js",
     "static/media/logo.svg": "/react-ejemplo-estructura/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/react-ejemplo-estructura/index.html",
     "main.073c9b0a.css.map": "/react-ejemplo-estructura/static/css/main.073c9b0a.css.map",
-    "main.c3af6557.js.map": "/react-ejemplo-estructura/static/js/main.c3af6557.js.map",
+    "main.94e9ac64.js.map": "/react-ejemplo-estructura/static/js/main.94e9ac64.js.map",
     "787.4d14aa8e.chunk.js.map": "/react-ejemplo-estructura/static/js/787.4d14aa8e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.c3af6557.js"
+    "static/js/main.94e9ac64.js"
   ]
 }
