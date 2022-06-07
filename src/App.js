@@ -1,15 +1,19 @@
-import logo from "./logo.svg";
+import Header from "./Components/header/Header";
+import News from "./Components/news/News";
+
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
+      <Header />
+      <div className="container">
+        <main className="main"></main>
+        <aside className="drawer">
+          <News />
+        </aside>
+      </div>
+      <div className="footer">Footer</div>
     </div>
   );
 }
