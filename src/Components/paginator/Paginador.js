@@ -31,8 +31,8 @@ export default class Paginador extends React.Component {
         // Esta es la versión declarativa
         let listaBotones = Array.from(Array(1 + this.state.pagMax-this.state.pagMin), (e, i) => {
             return (
-                <li className={this.state.paginaActual == i+this.state.pagMin ? "active" : ""} key={i}>
-                    <a className="" onClick={() => this.cambiaPagina(i+this.state.pagMin)}>{i+this.state.pagMin}</a>
+                <li className={this.state.paginaActual === i+this.state.pagMin ? "active" : ""} key={i}>
+                    <a href="/#" className="" onClick={() => this.cambiaPagina(i+this.state.pagMin)}>{i+this.state.pagMin}</a>
                 </li>
             )
         });
@@ -48,11 +48,11 @@ export default class Paginador extends React.Component {
         return (
             <div className="paginador">
                 <ul>
-                    <li className={"prev "+ (this.state.paginaActual == this.state.pagMin ? "disabled" : "")}><a onClick={() => this.cambiaPagina(this.state.paginaActual-1)}>&lt; Anterior</a></li>
+                    <li className={"prev "+ (this.state.paginaActual === this.state.pagMin ? "disabled" : "")}><a href="/#" onClick={() => this.cambiaPagina(this.state.paginaActual-1)}>&lt; Anterior</a></li>
                     {
                         this.generaBotonesPaginas()
                     }
-                    <li className={"prev "+ (this.state.paginaActual == this.state.pagMax ? "disabled" : "")}><a onClick={() => this.cambiaPagina(this.state.paginaActual+1)}>Siguiente &gt; </a></li>
+                    <li className={"prev "+ (this.state.paginaActual === this.state.pagMax ? "disabled" : "")}><a href="/#" onClick={() => this.cambiaPagina(this.state.paginaActual+1)}>Siguiente &gt; </a></li>
                 </ul>
             </div>
         )
