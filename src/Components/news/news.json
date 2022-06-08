@@ -2,13 +2,13 @@
     {
         "titulo": "Noticia 1", 
         "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc faucibus blandit justo.", 
-        "imagen": "./react-ejemplo-estructura/new-icon.png"
+        "imagen": "/react-ejemplo-estructura/new-icon.png"
     },{
         "titulo": "Noticia 2", 
         "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc faucibus blandit justo."
     },{
         "titulo": "Noticia 3", 
         "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc faucibus blandit justo.", 
-        "imagen": "./react-ejemplo-estructura/new-icon.png"
+        "imagen": "/react-ejemplo-estructura/new-icon.png"
     }
 ]
