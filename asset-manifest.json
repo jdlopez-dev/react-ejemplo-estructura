@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-ejemplo-estructura/static/css/main.18a4b3fc.css",
-    "main.js": "/react-ejemplo-estructura/static/js/main.9bfb535f.js",
+    "main.css": "/react-ejemplo-estructura/static/css/main.6a2245f2.css",
+    "main.js": "/react-ejemplo-estructura/static/js/main.0e3840ee.js",
     "static/js/787.4d14aa8e.chunk.js": "/react-ejemplo-estructura/static/js/787.4d14aa8e.chunk.js",
     "index.html": "/react-ejemplo-estructura/index.html",
-    "main.18a4b3fc.css.map": "/react-ejemplo-estructura/static/css/main.18a4b3fc.css.map",
-    "main.9bfb535f.js.map": "/react-ejemplo-estructura/static/js/main.9bfb535f.js.map",
+    "main.6a2245f2.css.map": "/react-ejemplo-estructura/static/css/main.6a2245f2.css.map",
+    "main.0e3840ee.js.map": "/react-ejemplo-estructura/static/js/main.0e3840ee.js.map",
     "787.4d14aa8e.chunk.js.map": "/react-ejemplo-estructura/static/js/787.4d14aa8e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18a4b3fc.css",
-    "static/js/main.9bfb535f.js"
+    "static/css/main.6a2245f2.css",
+    "static/js/main.0e3840ee.js"
   ]
 }
