@@ -1,7 +1,7 @@
 .App {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
   color: #000133;
 }
 
@@ -18,8 +18,10 @@
 }
 
 .drawer {
+  margin: auto;
   background: #d8dcd6;
   width: 20rem;
+  height: 85vh;
 }
 
 .main {

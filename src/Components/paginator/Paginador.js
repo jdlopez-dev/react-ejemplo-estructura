@@ -1,4 +1,5 @@
 import React from "react";
+import './Paginador.css';
 
 export default class Paginador extends React.Component {
     constructor(props){

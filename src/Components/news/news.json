@@ -1,14 +1,14 @@
 [
     {
         "titulo": "Noticia 1", 
-        "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc faucibus blandit justo, vel faucibus quam porta vel. Quisque ultricies tristique lobortis. Cras sed egestas neque. Quisque nisi dui, viverra id odio in, ultrices efficitur odio. Nam ut pretium elit. Vestibulum consectetur leo et lorem dictum, eget imperdiet sem bibendum.", 
-        "imagen": "./new-icon.png"
+        "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc faucibus blandit justo.", 
+        "imagen": "./react-ejemplo-estructura/new-icon.png"
     },{
         "titulo": "Noticia 2", 
-        "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc faucibus blandit justo, vel faucibus quam porta vel. Quisque ultricies tristique lobortis. Cras sed egestas neque. Quisque nisi dui, viverra id odio in, ultrices efficitur odio. Nam ut pretium elit. Vestibulum consectetur leo et lorem dictum, eget imperdiet sem bibendum."
+        "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc faucibus blandit justo."
     },{
         "titulo": "Noticia 3", 
-        "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc faucibus blandit justo, vel faucibus quam porta vel. Quisque ultricies tristique lobortis. Cras sed egestas neque. Quisque nisi dui, viverra id odio in, ultrices efficitur odio. Nam ut pretium elit. Vestibulum consectetur leo et lorem dictum, eget imperdiet sem bibendum.", 
+        "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc faucibus blandit justo.", 
         "imagen": "./react-ejemplo-estructura/new-icon.png"
     }
 ]
