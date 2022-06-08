@@ -1,5 +1,5 @@
 .paginador {  text-align: center; }
 .paginador ul li { list-style: none; display: inline-block; margin: 0 5px; }
-.paginador ul li a { display: block; padding: 5px; min-width: 20px; text-align: center; background: #ccc; cursor: pointer; }
-.paginador ul li.disabled a { opacity: 0.6; cursor: normal; }
-.paginador ul li.active a { background-color: #333; color: #fff; }
+.paginador ul li button { display: block; padding: 5px; min-width: 20px; text-align: center; background: #ccc; cursor: pointer; }
+.paginador ul li.disabled button { opacity: 0.6; cursor: normal; }
+.paginador ul li.active button { background-color: #333; color: #fff; }

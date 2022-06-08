@@ -8,10 +8,10 @@ function App() {
     <div className="App">
       <Header />
       <div className="container">
-        <main className="main"></main>
-        <aside className="drawer">
+        <main className="main">
           <News />
-        </aside>
+        </main>
+        <aside className="drawer">drawer</aside>
       </div>
       <div className="footer">Footer</div>
     </div>

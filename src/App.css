@@ -7,12 +7,14 @@
 
 .header,
 .footer {
+  height: 10vh;
   background: #00022e;
   height: 5rem;
   color: #fc86aa;
 }
 
 .container {
+  height: 100vh;
   display: flex;
   flex: 1;
 }
@@ -21,7 +23,6 @@
   margin: auto;
   background: #d8dcd6;
   width: 20rem;
-  height: 85vh;
 }
 
 .main {
